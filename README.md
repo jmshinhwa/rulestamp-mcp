@@ -1,4 +1,7 @@
-# ReadyStack Compliance Linters — 40 MCP servers
+# Rulestamp Compliance Linters — 40 MCP servers
+
+> Not affiliated with ReadyStack (readystack.dev). Rulestamp tools are made by the team behind getreadystack.com.
+
 
 Regulation- and deadline-aware linters (EU CRA / CSAF, PCI DSS 6.4.3, WCAG 2.1 AA, DORA, NIS2, EU AI Act, KSeF FA(3), NF-e, GitHub Actions EOL, TLS certificate lifetime, Kubernetes removed APIs …) that an AI agent calls over the **Model Context Protocol (MCP)**.
 
@@ -10,7 +13,7 @@ Every folder in this repository is one npm package `@readystack/<name>`. The sam
 
 - **Claude** (claude.ai / Desktop): Settings → Connectors → Add custom connector → `https://mcp.getreadystack.com/mcp`
 - **ChatGPT** (developer mode): Settings → Apps → Create → MCP server URL `https://mcp.getreadystack.com/mcp`, no authentication
-- **Gemini CLI**: `gemini extensions install https://github.com/jmshinhwa/readystack-mcp` (this repository ships `gemini-extension.json`)
+- **Gemini CLI**: `gemini extensions install https://github.com/jmshinhwa/rulestamp-mcp` (this repository ships `gemini-extension.json`)
 - **Cursor / VS Code / any client**: `{ "mcpServers": { "readystack": { "url": "https://mcp.getreadystack.com/mcp" } } }`
 
 ## Run as an MCP server (Claude Code · Cursor · Windsurf · any MCP client)
